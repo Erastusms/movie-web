@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(25, 25, 215), white);
+    position: relative;
+}
+
+.bg-header {
+    background-color: rgb(21, 21, 180);
+    color: black;
+}
+
+
+
+#dropdownGenre>.dropdown-item:hover {
+    cursor: pointer;
+    background-color: rgb(21, 21, 180);
+    color: white;
+}
+
+#pagination {
+    display: flex;
+    margin: 10px 30px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#pagination>button {
+    color: red;
+    outline: none;
+    border: none;
+}
+
+.page {
+    padding: 20px;
+    cursor: pointer;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+    color: grey;
+}
+
+.current {
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.details {
+    cursor: pointer;
+}
