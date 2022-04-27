@@ -1,1 +1,1 @@
-web: node src/index.js
+web: webpack serve --config webpack.dev.js
