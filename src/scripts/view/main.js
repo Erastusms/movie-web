@@ -27,7 +27,7 @@ let idDetailsForBackBtn = []
 const maxTotalPages = 500;
 const API_URL = `${BASE_URL}/discover/movie?${API_KEY}&page=${currentPage}`;
 
-function main() {
+const main = () => {
 
     const getGenre = async (url) => {
         try {
@@ -345,13 +345,6 @@ function main() {
             getDefaultEvent(e, GENRE_URL, titleText)
         })
     });
-
-    document.addEventListener('dblclick', function (event) {
-        showErrorMessage("Double-click not allowed!", mainTag);
-        event.preventDefault();
-        event.stopPropagation();
-    }, true
-    );
 }
 
 export default main;
