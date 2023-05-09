@@ -1,1 +1,1 @@
-Click here [Movie-Web](https://erastusms.github.io/movie-web/){:target="_blank" rel="noopener"} to visit my portfolio
+Click here [Movie-Web](https://erastusms.github.io/movie-web/) to visit my portfolio
