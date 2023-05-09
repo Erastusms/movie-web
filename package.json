@@ -1,12 +1,12 @@
 {
   "name": "submissionfundamentalfrontend",
   "version": "1.0.0",
-  "homepage": "https://https://erastusms.github.io/movie-web",
+  "homepage": "https://erastusms.github.io/movie-web",
   "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "webpack --config webpack.prod.js",
     "start-dev": "webpack serve --config webpack.dev.js"
   },
